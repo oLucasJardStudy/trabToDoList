@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AddTodoProps, TodoFormEvent, TodoInputEvent } from '../../types/Todo';
+import type { AddTodoProps, TodoFormEvent, TodoInputEvent } from '../../types/Todo';
 import { MESSAGES } from '../../constants';
 import { isValidTodoText } from '../../lib/todoUtils';
 

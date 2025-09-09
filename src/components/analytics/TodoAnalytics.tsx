@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui
 import { Badge } from '../ui/badge';
 import { Progress } from '../ui/progress';
 import { CheckCircle, Clock, Target, TrendingUp } from 'lucide-react';
-import { TodoAnalyticsProps } from '../../types/Todo';
+import type { TodoAnalyticsProps } from '../../types/Todo';
 import { calculateTodoStats } from '../../lib/todoUtils';
 
 const TodoAnalytics: React.FC<TodoAnalyticsProps> = ({ todos }) => {

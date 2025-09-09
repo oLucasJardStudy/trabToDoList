@@ -1,5 +1,5 @@
 import React from 'react';
-import { TodoItemProps, TodoButtonEvent } from '../../types/Todo';
+import type { TodoItemProps, TodoButtonEvent } from '../../types/Todo';
 import { MESSAGES } from '../../constants';
 
 const TodoItem: React.FC<TodoItemProps> = ({ todo, onToggle, onDelete }) => {

@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { AddTodo, TodoList, TodoAnalytics } from './components';
-import { Todo } from './types/Todo';
+import type { Todo } from './types/Todo';
 import { APP_CONFIG, INITIAL_TODOS, CSS_CLASSES, MESSAGES } from './constants';
 import { generateId } from './lib/todoUtils';
 
 function App() {
   // Estado inicial com tarefas de modelo
-  const [todos, setTodos] = useState<Todo[]>(INITIAL_TODOS);
+  const [todos, setTodos] = useState<Todo[]>([...INITIAL_TODOS]);
 
   const addTodo = (text: string) => {
     const newTodo: Todo = {

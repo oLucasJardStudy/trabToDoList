@@ -1,4 +1,4 @@
-import { Todo, TodoStats } from '../types/Todo';
+import type { Todo, TodoStats } from '../types/Todo';
 
 // Gera um ID único para tarefas
 export const generateId = (): string => 

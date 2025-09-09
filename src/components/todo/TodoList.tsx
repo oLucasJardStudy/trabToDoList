@@ -1,6 +1,6 @@
 import React from 'react';
 import TodoItem from './TodoItem';
-import { TodoListProps } from '../../types/Todo';
+import type { TodoListProps } from '../../types/Todo';
 import { MESSAGES } from '../../constants';
 
 const TodoList: React.FC<TodoListProps> = ({ todos, onToggleTodo, onDeleteTodo }) => {
