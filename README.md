@@ -281,4 +281,4 @@ useEffect(() => {
 
 ---
 
-**Desenvolvido com ❤️ usando React, TypeScript e Tailwind CSS**
+**Desenvolvido por Lucas Jardim Rocha**
